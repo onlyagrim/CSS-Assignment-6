@@ -1,0 +1,157 @@
+body{
+    background-image: url(./shara\ desert.jpg);
+    background-size: cover;
+}
+.icon{
+    display: inline-block;
+    background-image: url(./logo.png);
+    background-size: contain;
+    height: 50px;
+    width: 55px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.navlink3{
+    position: absolute;
+    right: 175px;
+    top: 45px;
+    color: white;
+}
+.navlink2{
+    position: absolute;
+    right: 275px;
+    top: 45px;
+    color: white;
+}
+.navlink1{
+    position: absolute;
+    right: 375px;
+    top: 45px;
+    color: white;
+}
+.toggle{
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 40px;
+    background-image: url(./menuiconimg.png);
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+}
+.toggle:hover{
+    background-image: url(./menuiconvid.gif);
+}
+
+.middiv{
+    display: inline-block;
+    width: 45vw;
+    padding-left: 50px;
+    margin-top: 100px;
+}
+.heading{
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.paragraph{
+color: white;
+margin-bottom: 50px;
+}
+.explore{
+    display: inline;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 25px;
+    
+}
+
+.bottomdiv{
+    display: flex;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 250px 250px;
+    row-gap: 25px;
+    column-gap: 25px;
+}
+.grid-item{
+    color: white;
+    background-size: cover;
+    border-radius: 25px;
+    padding-top: 25px;
+    font-size: small;
+    padding-left: 5px;
+}
+@media (min-width: 20px ) and (max-width: 480px ){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 190px;
+        grid-template-rows: 210px 210px 210px 210px;
+        row-gap: 25px;
+        column-gap: 25px; 
+    }
+    .icon{
+        display: inline-block;
+        background-image: url(./logo.png);
+        background-size: contain;
+        height: 50px;
+        width: 55px;
+        margin-left: 15px;
+        margin-top: 25px;
+    }
+    .bottomdiv{
+        position: relative;
+        left: 50px;
+        top: 50px;
+    
+    }
+    .navlink3{
+        position: absolute;
+        right: 75px;
+        top: 45px;
+        color: white;
+    }
+    .navlink2{
+        position: absolute;
+        right: 150px;
+        top: 45px;
+        color: white;
+    }
+    .navlink1{
+        position: absolute;
+        right: 225px;
+        top: 45px;
+        color: white;
+    }
+    .toggle{
+        display: inline-block;
+        position: absolute;
+        right: 25px;
+        top: 40px;
+        background-image: url(./menuiconimg.png);
+        background-size: cover;
+        height: 24px;
+        width: 24px;
+    }
+    .heading{
+        font-size: 50px;
+        color: white;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .toggle:hover{
+        background-image: url(./menuiconvid.gif);
+    }
+}
